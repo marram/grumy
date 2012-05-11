@@ -1,0 +1,5 @@
+{
+    "service": "Scrumy",
+    "url": "{{ SCRUMY_BOARD_URL }}",
+    "icon_url": "{{ ICON_URL }}"
+}

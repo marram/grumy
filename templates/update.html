@@ -1,0 +1,6 @@
+{%ifequal state "done"%}
+{{ scrumer.name }} marked {{ title }} done! Yay!.
+{%endifequal%}
+{%ifequal scrumer_name.0 "UNASSIGNED"%}
+{{ scrumer.name }} took on {{ title }}. Cool story bro.
+{%endifequal%}
