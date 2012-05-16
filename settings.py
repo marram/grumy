@@ -22,6 +22,7 @@ PITHY_COMMENTS = ["Cool story, bro.",
 
 PITHY_NEW_COMMENTS = ["...AND BOY ARE MY ARMS TIRED!",
                       "The more you know!",
+                      "Do you even have a life?",
                       "So if you could just go ahead and take care of that, that would be terrific, mmmmkay?",
                       "SO THERE'S THAT."]
 PITHY_NEW_COMMENTS.extend(PITHY_COMMENTS)
@@ -38,12 +39,14 @@ PITHY_TAKE_COMMENTS = ["Good job, yo.",
                        "But who will guard the guards themselves?!",
                        "But the--the law won.",
                        "You can do it, put your back into it.",
+                       "What? You want a cookie or something?",
                        "Thanks. I was hoping you'd do that one."]
 PITHY_TAKE_COMMENTS.extend(PITHY_COMMENTS)
 
 PITHY_DONE_COMMENTS = ["The end."
                        "That'll do, pig. That'll do.",
-                       "Maybe you could mow the lawn next?"]
+                       "Maybe you could mow the lawn next?",
+                       "Aren't YOU special."]
 PITHY_DONE_COMMENTS.extend(PITHY_COMMENTS)
 
 try:
