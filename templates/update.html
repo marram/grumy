@@ -1,6 +1,6 @@
 {%ifequal state "done"%}
-{{ scrumer.name }} marked {{ title }} done! Yay!. {{ PITHY_COMMENTS|choice }}
+{{ scrumer.name }} marked {{ title }} done! {{ PITHY_DONE_COMMENTS|choice }}
 {%endifequal%}
 {%ifequal scrumer_name.0 "UNASSIGNED"%}
-{{ scrumer.name }} took on {{ title }}. {{ PITHY_COMMENTS|choice }}.
+{{ scrumer.name }} took on {{ title }}. {{ PITHY_TAKE_COMMENTS|choice }}.
 {%endifequal%}
