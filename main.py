@@ -28,6 +28,9 @@ import base64
 
 resource_to_rest_verb = dict(task="tasks", story="stories")
 
+from google.appengine.ext.webapp.template import register_template_library
+register_template_library('grumy.template_filters')
+
 def fetch_from_scrumy(resource, id):
     auth_string = 'Basic ' + base64.encodestring("%s:%s" % (settings.SCRUMY_PROJECT, settings.SCRUMY_PASSWORD))
     headers= {'AUTHORIZATION' : auth_string}
@@ -62,7 +65,7 @@ class MainHandler(webapp2.RequestHandler):
 
     def render_action(self):
         path = os.path.join(os.path.dirname(__file__), "templates", self.action+".html")
-        template_values = dict()
+        template_values = dict(PITHY_COMMENTS=settings.PITHY_COMMENTS)
         template_values.update(self.request.GET)
         template_values.update(self.request.POST)
         data = json.loads(self.request.POST.get("data", "{}"))
