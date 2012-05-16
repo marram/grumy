@@ -65,7 +65,7 @@ class MainHandler(webapp2.RequestHandler):
 
     def render_action(self):
         path = os.path.join(os.path.dirname(__file__), "templates", self.action+".html")
-        template_values = dict(PITHY_COMMENTS=settings.PITHY_COMMENTS)
+        template_values = dict(PITHY_COMMENTS=settings.PITHY_COMMENTS,PITHY_NEW_COMMENTS=settings.PITHY_COMMENTS+settings.PITHY_NEW_COMMENTS,PITHY_TAKE_COMMENTS=settings.PITHY_COMMENTS+settings.PITHY_TAKE_COMMENTS,PITHY_DONE_COMMENTS=settings.PITHY_COMMENTS+settings.PITHY_DONE_COMMENTS)
         template_values.update(self.request.GET)
         template_values.update(self.request.POST)
         data = json.loads(self.request.POST.get("data", "{}"))

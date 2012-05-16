@@ -9,16 +9,36 @@ SCRUMY_PROJECT = "edit in private_settings.py"
 SCRUMY_PASSWORD = ""
 SCRUMY_ENDPOINT = "https://scrumy.com/api/"
 
-PITHY_COMMENTS = ["Cool story bro.",
-                  "Good job, yo.",
-                  "That's what she said",
-                  "A for effort",
-                  "Atta boy",
-                  "Atta girl",
-                  "See you on the other side, brother",
-                  "Try not to break anything.",
+PITHY_COMMENTS = ["Cool story, bro.",
+                  "Great job!",
+                  "A for effort!",
+                  "Atta boy.",
+                  "Atta girl.",
+                  "Girl power!",
+                  "Now that's what I call great IT work!",
                   "Thanks. I was hoping you'd do that one.",
-                  "Maybe you could mow the lawn next?"]
+                  "NEVER GIVE UP! NEVER SURRENDER!",
+                  "And it's about fucking time."]
+PITHY_NEW_COMMENTS = ["...AND BOY ARE MY ARMS TIRED!",
+                      "The more you know!",
+                      "So if you could just go ahead and take care of that, that would be terrific, mmmmkay?",
+                      "SO THERE'S THAT."]
+PITHY_TAKE_COMMENTS = ["Good job, yo.",
+                       "BREAKS EVERYTHING.",
+                       "Don't forget to bring a towel.",
+                       "Now you're playing with power!",
+                       "See you on the other side, brother.",
+                       "Try not to break anything.",
+                       "And posted a really distasteful video of it on the internet.",
+                       "...WITH GUSTO!!!",
+                       "Better you than me.",
+                       "But who will guard the guards themselves?!",
+                       "But the--the law won.",
+                       "You can do it, put your back into it.",
+                       "Thanks. I was hoping you'd do that one."]
+PITHY_DONE_COMMENTS = ["The end."
+                       "That'll do, pig. That'll do.",
+                       "Maybe you could mow the lawn next?"]
 try:
     from private_settings import *
 except Exception, e:
