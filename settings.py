@@ -40,7 +40,8 @@ PITHY_TAKE_COMMENTS = ["Good job, yo.",
                        "But the--the law won.",
                        "You can do it, put your back into it.",
                        "What? You want a cookie or something?",
-                       "Thanks. I was hoping you'd do that one."]
+                       "Thanks. I was hoping you'd do that one.",
+                       "Two tasks enter; One task leaves."]
 PITHY_TAKE_COMMENTS.extend(PITHY_COMMENTS)
 
 PITHY_DONE_COMMENTS = ["The end."
