@@ -18,13 +18,15 @@ PITHY_COMMENTS = ["Cool story, bro.",
                   "Now that's what I call great IT work!",
                   "Thanks. I was hoping you'd do that one.",
                   "NEVER GIVE UP! NEVER SURRENDER!",
-                  "And it's about fucking time."]
+                  "And it's about fucking time.",
+                  "YOUNG LADY"]
 
 PITHY_NEW_COMMENTS = ["...AND BOY ARE MY ARMS TIRED!",
                       "The more you know!",
                       "Do you even have a life?",
                       "So if you could just go ahead and take care of that, that would be terrific, mmmmkay?",
-                      "SO THERE'S THAT."]
+                      "SO THERE'S THAT.",
+                      "You call that a task?"]
 PITHY_NEW_COMMENTS.extend(PITHY_COMMENTS)
 
 PITHY_TAKE_COMMENTS = ["Good job, yo.",
@@ -41,13 +43,21 @@ PITHY_TAKE_COMMENTS = ["Good job, yo.",
                        "You can do it, put your back into it.",
                        "What? You want a cookie or something?",
                        "Thanks. I was hoping you'd do that one.",
-                       "Two tasks enter; One task leaves."]
+                       "Two tasks enter; One task leaves.",
+                       "Have fun storming the castle.",
+                       "The taskman. Taskatollah. The taskster. Task-o-rama. The taskinator. The taskmeister. Taskarino. Taskerosa.",
+                       "Swiper, no swiping!"]
 PITHY_TAKE_COMMENTS.extend(PITHY_COMMENTS)
 
 PITHY_DONE_COMMENTS = ["The end."
                        "That'll do, pig. That'll do.",
                        "Maybe you could mow the lawn next?",
-                       "Aren't YOU special."]
+                       "Aren't YOU special.",
+                       "Did IIII do that?",
+                       "And so the task becomes the grass, and the antelope eat the grass. And so we are all connnected in the great Circle of Life. ",
+                       "This task is no more! It has ceased to be!",
+                       "I'm not dead yet.",
+                       "Another one bites the dust."]
 PITHY_DONE_COMMENTS.extend(PITHY_COMMENTS)
 
 try:
