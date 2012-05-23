@@ -19,11 +19,10 @@ PITHY_COMMENTS = ["Cool story, bro.",
                   "That was a hell of a thing.",
                   "Girl power!",
                   "Now that's what I call great IT work!",
-                  "Could you possibly try NOT to hit EVERY SINGLE ONE?",
                   "Thanks. I was hoping you'd do that one.",
                   "NEVER GIVE UP! NEVER SURRENDER!",
-                  "You know, with all that makeup and stuff, I actually thought you were SMART for a second.",
-                  "And it's about fucking time."]
+                  "And it's about fucking time.",
+                  "YOUNG LADY"]
 
 PITHY_NEW_COMMENTS = ["...AND BOY ARE MY ARMS TIRED!",
                       "The more you know!",
@@ -33,11 +32,11 @@ PITHY_NEW_COMMENTS = ["...AND BOY ARE MY ARMS TIRED!",
                       "Go for the heart, then, the throat, his vulnerable spots!",
                       "CAW!!! CAW!!!",
                       "I don't like this. I don't like this at all.",
-                      "I see you've managed to get your shirt off.",
                       "What I could really use here is a cup holder and a couple of Advil.",
                       "Give her a hand, she's British.",
                       "So if you could just go ahead and take care of that, that would be terrific, mmmmkay?",
-                      "SO THERE'S THAT."]
+                      "SO THERE'S THAT.",
+                      "You call that a task?"]
 PITHY_NEW_COMMENTS.extend(PITHY_COMMENTS)
 
 PITHY_TAKE_COMMENTS = ["Good job, yo.",
@@ -53,13 +52,24 @@ PITHY_TAKE_COMMENTS = ["Good job, yo.",
                        "But the--the law won.",
                        "You can do it, put your back into it.",
                        "What? You want a cookie or something?",
-                       "Thanks. I was hoping you'd do that one."]
+                       "Thanks. I was hoping you'd do that one.",
+                       "Two tasks enter; One task leaves.",
+                       "Have fun storming the castle.",
+                       "The taskman. Taskatollah. The taskster. Task-o-rama. The taskinator. The taskmeister. Taskarino. Taskerosa.",
+                       "Swiper, no swiping!"]
 PITHY_TAKE_COMMENTS.extend(PITHY_COMMENTS)
 
 PITHY_DONE_COMMENTS = ["The end."
                        "That'll do, pig. That'll do.",
+                       "I see you've managed to get your shirt off.",
                        "Maybe you could mow the lawn next?",
-                       "Aren't YOU special."]
+                       "Could you possibly try NOT to hit EVERY SINGLE ONE?",
+                       "Aren't YOU special.",
+                       "Did IIII do that?",
+                       "And so the task becomes the grass, and the antelope eat the grass. And so we are all connnected in the great Circle of Life. ",
+                       "This task is no more! It has ceased to be!",
+                       "I'm not dead yet.",
+                       "Another one bites the dust."]
 PITHY_DONE_COMMENTS.extend(PITHY_COMMENTS)
 
 try:
